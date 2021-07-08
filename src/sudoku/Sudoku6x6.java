@@ -432,7 +432,6 @@ public class Sudoku6x6 extends javax.swing.JFrame {
             
             if (countAcertos == 23) {
                 if (escolhaUsuario.isDesafio()) {
-                    this.dispose();
                     String msg = "PARABÉNS, VOCÊ ACABA DE DESBLOQUEAR A FASE 3";
                     String msg2 = "Quer tentar jogar?";
                     String msg3 = "Em 1986, o Sudoku já era um dos jogos mais vendidos no Japão. No entanto, sua disseminação pelo"
